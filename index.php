@@ -1,6 +1,7 @@
 <?php
-require_once 'PreBase.php';
-$sum=new PreBase($a,$b);
-$sum->sum(2,4);
-echo $sum->out($res);
+
+require_once 'ProBase.php';
+$sum=new ProBase(5,4);
+$sum->sum(5,4);
+echo $sum->out();
 ?>
